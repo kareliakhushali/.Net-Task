@@ -1,0 +1,13 @@
+﻿@*@model IEnumerable<Item>
+
+<h1>Items</h1>
+
+@foreach (var item in Model)
+{
+    <div>
+        <h2>@item.Name</h2>
+        <p>@item.Description</p>
+        <p>@item.Price</p>
+        <img src="@item.ImageUrl" alt="@item.Name" />
+    </div>
+}*@

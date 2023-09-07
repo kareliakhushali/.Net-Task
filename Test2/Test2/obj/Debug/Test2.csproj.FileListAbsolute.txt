@@ -1,0 +1,7 @@
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Test2\Test2\bin\Debug\Test2.exe.config
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Test2\Test2\bin\Debug\Test2.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Test2\Test2\bin\Debug\Test2.pdb
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Test2\Test2\obj\Debug\Test2.csproj.AssemblyReference.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Test2\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Test2\Test2\obj\Debug\Test2.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Test2\Test2\obj\Debug\Test2.pdb

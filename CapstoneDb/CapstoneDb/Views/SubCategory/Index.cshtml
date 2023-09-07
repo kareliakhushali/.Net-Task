@@ -1,0 +1,145 @@
+﻿@model IEnumerable<SubCategoryViewModel>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "SubCategory List";
+    int no = 1;
+}
+<nav class="navbar navbar-light mt-1">
+    <a class="navbar-brand btn btn-outline-success" asp-action="AddSubCategory" asp-controller="SubCategory" >
+         Add
+    </a>
+</nav>
+
+<div class="border border-1 rounded border-secondary bg-dark text-white p-1 m-1">
+
+    <div class="row fs-5 fw-bold">
+        <div class="col-sm-2 m-1">Sr.No</div>
+        <div class="col-sm-2 m-1">Name</div>
+        <div class="col-sm-2 m-1">Category Name</div>
+
+    </div>
+    @foreach (SubCategoryViewModel each in Model)
+    {
+<div class="row border border-1 rounded m-1 align-content-center fs-6 word-wrap bg-dark">
+    <div class="col-sm-2 align-text-top pt-1">@no</div>
+    <div class="col-sm-4  pt-1">@each.Name</div>
+    <div class="col-sm-4  pt-1">@each.Category</div>
+
+    <div class="col-sm-3 pt-1">
+        @Html.ActionLink("Edit", "GetProducts", "Category", new { id = each.Id, },
+            new { @class = "btn btn-outline-info m-1" })
+        <a asp-action="Edit" asp-router-id="@each.Id" class="btn btn-outline-info m-1">Edit</a>
+        <a asp-action="Delete" asp-router-id="@each.Id" class="btn btn-outline-danger m-1">Delete</a>
+    </div>
+    @{
+        no = no + 1;
+
+    }
+
+</div>
+    }
+
+</div>
+
+@*@section Scripts{
+
+    <script>
+
+        function IsBlank(input) {
+
+            let value = input.val().trim();
+
+            if (value == undefined || value == '')
+
+                return true;
+
+            return false;
+
+        }
+
+        function IsOnlyNumeric(input) {
+
+            let value = input.val().trim();
+
+            return isNaN(value);
+
+        }
+
+        $(document).ready(function () {
+
+            $("#btnAddSubCategory").on("click", function () {
+
+                $("#divSubCategoryError").text("");
+
+                let subcategory = $("#txtSubCategory");
+
+                let blank = IsBlank(subcategory);
+
+                if (!blank) {
+
+                    if (!IsOnlyNumeric(subcategory)) {
+
+                        $("#divSubCategoryError").text("Only numbers are not allowed");
+
+                        return;
+
+                    }
+
+                    else {
+
+                        $.post("/SubCategory/AddSubCategory",
+
+                            { name: subcategory.val().trim() },
+
+                            function (data) {
+
+                                if (data) {
+
+                                    alert("Success");
+
+                                    window.location.href = "/SubCategory/Index";
+
+
+
+                                }
+
+                                else {
+
+                                    alert("Duplicate SubCategory not allowed");
+
+                                }
+
+                            });
+
+                    }
+
+                }
+
+                else {
+
+                    $("#divSubCategoryError").text("SubCategory Should not empty");
+
+                    return;
+
+                }
+
+            })
+
+        })
+
+    </script>
+
+}
+*@
+
+
+
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}

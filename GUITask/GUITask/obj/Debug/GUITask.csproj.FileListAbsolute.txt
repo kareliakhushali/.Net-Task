@@ -1,0 +1,10 @@
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\bin\Debug\GUITask.exe.config
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\bin\Debug\GUITask.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\bin\Debug\GUITask.pdb
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\obj\Debug\GUITask.csproj.AssemblyReference.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\obj\Debug\GUITask.UserForm.resources
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\obj\Debug\GUITask.Properties.Resources.resources
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\obj\Debug\GUITask.csproj.GenerateResource.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\obj\Debug\GUITask.csproj.CoreCompileInputs.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\obj\Debug\GUITask.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\GUITask\GUITask\obj\Debug\GUITask.pdb

@@ -1,0 +1,7 @@
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\CapstoneCsharp\CapstoneCsharp\bin\Debug\CapstoneCsharp.exe.config
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\CapstoneCsharp\CapstoneCsharp\bin\Debug\CapstoneCsharp.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\CapstoneCsharp\CapstoneCsharp\bin\Debug\CapstoneCsharp.pdb
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\CapstoneCsharp\CapstoneCsharp\obj\Debug\CapstoneCsharp.csproj.AssemblyReference.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\CapstoneCsharp\CapstoneCsharp\obj\Debug\CapstoneCsharp.csproj.CoreCompileInputs.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\CapstoneCsharp\CapstoneCsharp\obj\Debug\CapstoneCsharp.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\CapstoneCsharp\CapstoneCsharp\obj\Debug\CapstoneCsharp.pdb

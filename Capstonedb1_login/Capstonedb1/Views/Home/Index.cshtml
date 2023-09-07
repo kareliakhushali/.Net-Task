@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ProductViewModel>
+
+
+
+@{ ViewData["Title"] = "Home Page";
+    string imagePath = string.Empty; }
+
+
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    </div>*@
+
+
+
+<div class="text-success">@ViewData["SuccessMessage"]</div>
+<div class="container mt-3">
+    <div class="row row-cols-1 row-cols-md-3 g-4 ms-1 mt-3 me-1">
+        @foreach (ProductViewModel each in Model)
+        {
+            if (each.Profile == null)
+            {
+                imagePath = "/images/img.jpg";
+            }
+            else
+            {
+                imagePath = "/images/" + each.Profile;
+            }
+
+<div class="col mb-3">
+    <div class="card h-100 shadow">
+        <img src="@imagePath" class="card-img-top h-50" alt="image not found" />
+        <div class="card-body">
+            <h5 class="card-title">@each.Name</h5>
+            <hr class="my-2" />
+            <p class="card-text"><strong>Category:</strong> @each.Category</p>
+            <p class="card-text"><strong>SubCategory:</strong> @each.SubCategory</p>
+            <p class="card-text"><strong>Price:</strong> @each.Rate</p>
+            <p class="card-text"><strong>Company:</strong> @each.Brand</p>
+            <p class="card-text"><strong>Generation:</strong> @each.Generation</p>
+            <p class="card-text"><strong>Sim:</strong> @each.Sims</p>
+            <p class="card-text"><strong>Version:</strong> @each.OS</p>
+            <p class="card-text"><strong>Ram:</strong> @each.RAM</p>
+            <p class="card-text"><strong>Rom:</strong> @each.ROM</p>
+            <p class="card-text"><strong>Color:</strong> @each.Color</p>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <i onclick="myFunction(this)" class="fa fa-heart"></i>
+            <script>
+            function myFunction(x) {
+                x.classList.toggle("fa fa-heart");
+            }
+        </script>
+        </div>
+        
+        
+    </div>
+</div>}
+    </div>
+</div>

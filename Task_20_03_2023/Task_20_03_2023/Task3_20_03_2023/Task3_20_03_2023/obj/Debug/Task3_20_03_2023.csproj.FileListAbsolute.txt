@@ -1,0 +1,7 @@
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task_20_03_2023\Task_20_03_2023\Task3_20_03_2023\Task3_20_03_2023\obj\Debug\Task3_20_03_2023.csproj.AssemblyReference.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task_20_03_2023\Task_20_03_2023\Task3_20_03_2023\Task3_20_03_2023\obj\Debug\Task3_20_03_2023.csproj.CoreCompileInputs.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task_20_03_2023\Task_20_03_2023\Task3_20_03_2023\Task3_20_03_2023\bin\Debug\Task3_20_03_2023.exe.config
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task_20_03_2023\Task_20_03_2023\Task3_20_03_2023\Task3_20_03_2023\bin\Debug\Task3_20_03_2023.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task_20_03_2023\Task_20_03_2023\Task3_20_03_2023\Task3_20_03_2023\bin\Debug\Task3_20_03_2023.pdb
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task_20_03_2023\Task_20_03_2023\Task3_20_03_2023\Task3_20_03_2023\obj\Debug\Task3_20_03_2023.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task_20_03_2023\Task_20_03_2023\Task3_20_03_2023\Task3_20_03_2023\obj\Debug\Task3_20_03_2023.pdb

@@ -1,0 +1,7 @@
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task4\Task4\obj\Debug\Task4.csproj.AssemblyReference.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task4\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task4\Task4\bin\Debug\Task4.exe.config
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task4\Task4\bin\Debug\Task4.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task4\Task4\bin\Debug\Task4.pdb
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task4\Task4\obj\Debug\Task4.exe
+C:\my data\OneDrive - Arrow Electronics, Inc\Desktop\.Net Task\Task4\Task4\obj\Debug\Task4.pdb

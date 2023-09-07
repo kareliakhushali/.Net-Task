@@ -1,0 +1,123 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model SubCategoryViewModel
+@{
+    ViewBag.Title = "New SubCategory";
+
+}
+<form asp-controller="SubCategory" asp-action="Save" method="post"
+      class="m-3" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class=" row m-2">
+        <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+        <input asp-for="Name" class="col-sm-4 col-form-control" />
+        <span id="spnNameError" style="color:red" class="col-sm-3">*</span>
+    </div>
+
+    <div class="row m-2">
+        <label asp-for="Category" class="col-sm-2 col-form-label"></label>
+        <select asp-for="CatId" asp-items="@(new SelectList(ViewBag.Category,"Id","Name"))"
+                class="col-sm-5"></select>
+    </div>
+    <div class="row m-2">
+        <button type="submit" class="btn btn-success col-sm-2" id="btnSave">Save</button>
+    </div>
+</form>
+
+@section Scripts{
+
+    <script>
+
+        function IsBlank(input) {
+
+            let value = input.val().trim();
+
+            if (value == undefined || value == '')
+
+                return true;
+
+            return false;
+
+        }
+
+        function IsOnlyNumeric(input) {
+
+            let value = input.val().trim();
+
+            return isNaN(value);
+
+        }
+
+        $(document).ready(function () {
+
+            $("#btnAddSubCategory").on("click", function () {
+
+                $("#divSubCategoryError").text("");
+
+                let subcategory = $("#txtSubCategory");
+
+                let blank = IsBlank(subcategory);
+
+                if (!blank) {
+
+                    if (!IsOnlyNumeric(subcategory)) {
+
+                        $("#divSubCategoryError").text("Only numbers are not allowed");
+
+                        return;
+
+                    }
+
+                    else {
+
+                        $.post("/SubCategory/AddSubCategory",
+
+                            { name: subcategory.val().trim() },
+
+                            function (data) {
+
+                                if (data) {
+
+                                    alert("Success");
+
+                                    window.location.href = "/SubCategory/Index";
+
+
+
+                                }
+
+                                else {
+
+                                    alert("Duplicate SubCategory not allowed");
+
+                                }
+
+                            });
+
+                    }
+
+                }
+
+                else {
+
+                    $("#divSubCategoryError").text("SubCategory Should not empty");
+
+                    return;
+
+                }
+
+            })
+
+        })
+
+    </script>
+}
+
+
+
+
+
+
